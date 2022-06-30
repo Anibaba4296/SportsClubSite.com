@@ -1,0 +1,68 @@
+         .menu{
+            float:left;
+            width:20%;
+            height: 500px;
+            text-align:center;
+            background-color:aqua;
+            
+        }
+        
+      ul {
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            overflow:hidden;
+            background-color:black;
+            
+          }
+      li {
+            float:right;
+          }
+      li a {
+	            display:block;
+	            color:white;
+	            text-align:center;
+	            padding:15px;
+	            text-decoration:none;
+            }
+      li a:hover {
+                    color:black;
+		                background-color:pink;
+                  }
+      h3{
+          color: red;
+          font-family: algerian;
+        }
+        /* Slideshow container */
+      .slideshow-container {
+            max-width: none;
+            position: none;
+            margin: 0px;
+        }
+      /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        p{
+          color:white;
+        }
+        h1{
+          color:aqua;
+        }
+        .image{
+          padding: 10px;
+          height: 150px;
+          width:260px;
+        }
+        tr{
+          background-color: aqua;
+        }
+        th{
+          color: black;
+        }

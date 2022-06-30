@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sports Club</title>
+    <link rel="stylesheet" type="text/css" href="projectcss.css" media="all" />
+</head>
+
+<body style="font-family:Verdana;color:white;background-color:black;">
+    <ul>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="registrationform.html">Register now</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="Aboutclub.html">About club</a></li>
+        <li><a href="#">Home</a></li>
+        <img src="Logo.jpg" width="150" height="100" alt="Logo of club">
+    </ul>
+
+    <hr>
+    <marquee>
+        <h1 style="color:yellow;">Registrations open !!! Hurry up !!!</h1>
+    </marquee>
+    <hr>
+    <div style="background-color:cyan;color:white; padding:15px;height: 450px;">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+
+                <img src="about-us.png" style="height: 420px; width:1190px;">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="campus1.jpg" style="height: 420px; width:1190px;">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="campus.jpg" style="height: 420px; width:1190px;">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="campus (2).jpg" style="height: 420px; width:1190px;">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="badminton1.jpg" style="height: 420px; width:1190px;">
+
+            </div>
+            <div class="mySlides fade">
+
+                <img src="atheletics1.jpg" style="height: 420px; width:1190px;">
+
+            </div>
+            <div class="mySlides fade">
+
+                <img src="swimming2.jpg" style="height: 420px; width:1190px;">
+
+            </div>
+            <div class="mySlides fade">
+
+                <img src="volleball1.jpg" style="height: 420px; width:1190px;">
+
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <div class="menu">
+        <h2 style="color: rgb(29, 40, 201);">Sports offered</h2>
+        <h3>Football</h3>
+        <h3>Volleyball</h3>
+        <h3>Badminton</h3>
+        <h3>Swimming</h3>
+        <h3>Atheletics</h3>
+        <h2>Get chance to participate in</h2>
+        <img src="images.jpg" style="width: 200px;height: 120px;">
+
+    </div>
+
+
+    <center><u><i><h1 style="font-family: Comic Sans MS;color: yellow;">Start training now</h1></i></u></center>
+    <!--Information club i.e. About club -->
+    <p>
+        <strong>"To shine like a star we have to burn like sun"</strong> with this thought in our mind we are moving toward our goals. We teach our atheletes that they they must not to be upset from loss instead they must analyse their mistake and put
+        more efford to win next game.
+    </p>
+    <p>
+        We personally focus each and every athelete and train them to overcome their weaknesses. We train all the atheletes in both academic as well as in their game.
+    </p>
+    <h2 style="color: bisque; font-family: Comic Sans MS;">" Winners are not who never fail, they are the people who never quit. "</h2>
+    <h2 style="color: bisque; font-family: Comic Sans MS;">" If you give up, it means you never wanted it. "</h2>
+
+    <p>
+        <h2 style="color: brown;">Sponsored by</h2>
+        <img src="sponsor.png" style="width: 200px;height: 120px;">
+    </p>
+</body>
+
+</html>
